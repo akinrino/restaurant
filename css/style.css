@@ -1,0 +1,219 @@
+
+
+header{  position: sticky; top:0; left: 0; right: 0;
+     z-index: 1000; background-color:black; padding-left:40px;
+    height:60px; border-bottom:7px double #d4a025 ;opacity: 0.9
+ }
+    nav a {text-decoration:none;
+        text-shadow:0px 0px 13px white;
+        color:white;
+         padding:8px;
+         width:80px;
+         float:right;
+         text-align: center;
+         margin-left:5px;
+         margin-right:5px;
+         position: relative;
+         right:28px;
+         top:6px;
+         font-size:20px;
+         font-weight:bold;
+         font-family: lancelot;
+       /*  :#13131a; */
+    
+}
+html::-webkit-scrollbar{
+    width: .8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background: whitesmoke;
+}
+
+html::-webkit-scrollbar-thumb{
+    background: #d4a025;
+    border-radius: 5rem;
+}
+
+.active{color:white}
+.active:hover{text-decoration:none; color:white}
+.tx{font-size:20px;padding:20px}
+
+.containers {float:right;
+    position: relative;
+    width: 50%;
+  }
+  .button{  border:2px solid #d4a025; width:13%; font-size:20px;font-family: lancelot;padding:7px; margin-left:43%;border-radius:4px;}
+  .button:hover{background-color:#d4a025; cursor: pointer;border-radius:4px  }
+  .button3{color:white;font-size:25px; width:40%;text-align:center;
+     margin-left:auto; margin-right:auto; margin-bottom:18px;border:2px solid #d4a025;border-radius:4px}
+  .button3:hover{color:white;background-color:#d4a025}
+  .button4{border:2px solid #d4a025; width:40%;font-family:lancelot; font-size:22px; text-align:center; border-radius:4px}
+  .button4:hover{ color:white;background-color:#d4a025;cursor:pointer}
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 50%;
+    height:0;
+    transition: .5s ease;
+  }
+  
+  .containers:hover .overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .text {
+    white-space: nowrap; 
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+ .gallery{padding:10px; margin-left:4px;}
+  div p.desc {color:black;
+    background-color:white; width:200px;
+    padding: 8px; text-align:center; font-family:lancelot;font-size:21px;font-weight:bolder;
+
+}
+
+.button2 {border:2px solid #d4a025; width:28%; text-align:center; font-size:20px; margin-left:auto;margin-right:auto; cursor:pointer;
+    font-family: lancelot;padding:2px;border-radius:4px; background-color:black}
+    .button2:hover{color:white; background-color:#d4a025 }
+.serve{background-color:white; color:black; width:370px; text-align:center;padding:15px; font-family: lancelot; font-size:25px;font-weight: bolder}
+.cc{background-color:rgba(0, 0, 0, 0.624);padding:25px;padding-top:5px;width:155%; }
+.bf{width:16%;padding:5px;}
+.kk{position:fixed; left:7% ; top:9px; font-family: berkshire swash; font-size:22px;color:#d4a025;text-shadow:0px 0px 13px #d4a025} 
+.ii{display:flex; border-top:7px double #d4a025; border-bottom:7px double #d4a025 }
+.us{z-index: -1; position: fixed}
+   .about{text-align: center; font-weight: bold; font-family:lancelot;font-size:50px}
+.title1{   background-color:#d4a025; font-family: lancelot; text-align: center;padding:8px; font-weight:bold;font-size:40px}
+ .breakfast{  margin-left:188px;margin-right: 188px;font-family: lancelot; background-color:whitesmoke; padding-bottom:33px;}
+ .title2{  background-color:#d4a025; font-family: lancelot; text-align: center;padding:8px;font-weight:bold;font-size:40px }
+ .lunch{ margin-left:188px;margin-right: 188px; font-family:lancelot;background-color:whitesmoke;padding-bottom:33px; }
+ .title3{background-color:#d4a025; text-align: center;padding:8px; font-weight:bold;font-size:40px  }
+ .dinner{ margin-left:188px;margin-right: 188px; font-family: lancelot;background-color:whitesmoke; padding-bottom:33px;font-size:30px }
+ .title4{ background-color:#d4a025; text-align: center; font-family:lancelot;padding:8px;font-weight:bold;font-size:40px}
+ .dessert{ margin-left:188px;margin-right: 188px; background-color:whitesmoke; font-family: lancelot; padding-bottom:33px; }
+     nav a:hover{text-shadow:0px 0px 13px #d4a025 ; 
+        font-weight:bold; color:#d4a025;text-decoration:none }
+     
+       .arc{font-family:lancelot; font-size:25px;padding-left:250px; padding-right:250px;text-align:center} 
+     nav a:link{color:#d4a025;}
+
+     @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+     body{
+         line-height: 1.5;
+         
+     }
+     *{ scroll-behavior:smooth;
+         margin:0;
+         padding:0;
+        
+     }
+     input{width:95%; font-weight: lighter}
+    
+    .form1{color:black; background-color:#d4a025;
+        font-family: lancelot; padding:25px; width:35%; position: relative; left:33%; border-radius:15px }
+ .order1{font-size:17px;font-family: lancelot;width:450px; margin-left:55px;}
+ .order2{font-size:17px;font-family: lancelot;width:450px; margin-left:190px;}
+ .order{display:flex;padding: 45px;}
+
+
+    .container{
+        max-width: 1170px;
+        margin:auto;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    ul{
+        list-style: none;
+    }
+    .footer{ 
+        background-color: black;
+        padding: 60px;
+        opacity:0.9;
+        border-top: 7px double #d4a025 
+    }
+    .footer-col{
+       width: 25%;
+       padding: 0 15px;
+    }
+    .footer-col h4{
+        font-family:lancelot;
+        font-size:22px;
+        color: #ffffff;
+        text-transform: capitalize;
+        margin-bottom: 35px;
+        font-weight: 500;
+        position: relative;
+    }
+    .footer-col h4::before{
+        content: '';
+        position: absolute;
+        left:0;
+        bottom: -10px;
+        background-color: #d4a025 ;
+        height: 2px;
+        box-sizing: border-box;
+        width: 50px;
+    }
+    .footer-col ul li:not(:last-child){
+        margin-bottom: 10px;
+    }
+    .footer-col ul li a{
+        font-family:lancelot;
+        font-size: 19px;
+        text-transform: capitalize;
+        color: #ffffff;
+        text-decoration: none;
+        font-weight: 300;
+        color: #bbbbbb;
+        display: block;
+        transition: all 0.3s ease;
+    }
+    .footer-col ul li a:hover{
+        color: #ffffff;
+        padding-left: 8px;
+    }
+    .footer-col .social-links a{
+        display: inline-block;
+        height: 40px;
+        width: 40px;
+        border: 2px solid #d4a025;
+        margin:0 10px 10px 0;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 50%;
+        color: #ffffff;
+        transition: all 0.5s ease;
+    }
+    .footer-col .social-links a:hover{
+        color: #d4a025;
+        background-color: white;
+    }
+    
+    /*responsive*/
+    @media(max-width: 767px){
+      .footer-col{
+        width: 50%;
+        margin-bottom: 30px;
+    }
+    }
+    @media(max-width: 574px){
+      .footer-col{
+        width: 100%;
+    }
+    }
+    
